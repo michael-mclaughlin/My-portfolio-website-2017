@@ -1,0 +1,634 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-size: 100%;
+}
+html{
+    height: 100%;
+    background-color: #000;
+}
+body{
+    height: 100%;
+}
+section{
+    
+}
+header{
+    background-color: #2856b6;
+    position: fixed;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 100;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: none;
+
+}
+nav{
+    display: inline-block;
+}
+
+h3{
+    font-size: 1.25em;
+}
+h4{
+    font-size: 1.875em;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 100;
+}
+p{
+    text-align: justify;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 100;
+    font-size: 1.25em;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.frontPage{
+    background-color: #fff;
+    width: 100%;
+}
+.profilePage{
+    background-color: #ff1744;
+    padding: 3em 1em 4em; 
+}
+header h1{
+    font-family: "Oswald",sans-serif;
+    display: inline-block;
+    padding: .25em 0 .25em .75em;
+    font-weight: 400;
+    color: #fff;
+    font-size: 1.75em;
+}
+header h1 a{
+     color: #fff;
+}
+.headerNavLinks {
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 1.25em;
+    padding: 0.75em;
+}
+.fixedHeader span {
+    color: #fff;
+    font-family: "Oswald",sans-serif;
+    font-weight: 100;
+}
+
+.frontPage h1, .frontPage h4{
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 100;
+}
+.parentalContentParentContainer h1 {
+    font-size: 2em;
+}
+.descriptionH4{
+    font-size: 1.425em;
+}
+.profilePage *{
+    color: #fff;
+}
+.parentalProfileContentContainer{
+    border: 3px solid #fff;
+}
+.esrb{
+    border: 3px solid #000;
+    display: inline-block;
+}
+.frontPage h2{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 11em;
+}
+.profilePage table{
+    border: 1px solid #fff;
+    margin: 0 auto;
+    width: 80%;
+}
+.profilePage table td{
+    border: 2px solid #fff;
+    padding: .5em 1em; 
+    text-align: center;
+}
+.profilePage table td:nth-child(1){
+    width: 11em;
+}
+.profilePage h1, .parentalAdvisoryExplicit h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    padding: .15em 0; 
+}
+.parentalAdvisoryExplicit h1{
+    color: #fff;
+    text-align: center;
+    letter-spacing: .5em;
+    background-color: #000;
+    padding: 2% 1%; 
+}
+.profilePage h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 4em;
+    line-height: 1em;
+}
+.esrb h2{
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    font-size: 2em;
+    padding: 0 1%; 
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #000;
+}
+.esrbFooter{
+    background-color: #000;
+    padding: 0.5em 0;
+}
+.esrbFooter h3{
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 100;
+    text-align: left;
+    font-size: 1.5em;
+    padding: 0 1%; 
+    letter-spacing: 1px;
+    color: #fff;
+}
+.profilePage h3{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    letter-spacing: 1.25px;
+}
+.esrbParentContainer {
+    padding: 10% 0 0; 
+    background-color: #000;
+    overflow: hidden;
+}
+.esrbParentContainer p, .esrbParentContainer h1, .esrbParentContainer h2, .esrbParentContainer h3, .esrbParentContainer h4, .esrbParentContainer span{
+    color: #fff;
+    text-align: center;
+}
+.esrbParentContainer p{
+    margin: 1em;
+}
+.esrbParentContainer h2, .esrbParentContainer h3, .esrbParentContainer h4{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
+.esrbParentContainer h2{
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+.esrbParentContainer h3{
+    font-size: 2.5em;
+    margin: 0.25em 0;
+}
+.esrbParentContainer h3 a{
+    color: #ff1744;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.esrbParentContainer h4{
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 100;
+    font-size: 1.5em;
+    margin: .25em 0;
+}
+.esrbParentContainer h4 a{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    color: #ff1744;
+    letter-spacing: 1px;
+}
+.esrbParentContainer span{
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 100;
+    font-size: .75em;
+}
+.portfolioDescriptionContainer{
+    float: left;
+    width: 60%;
+}
+.ficticiousCopywrite{
+    margin-bottom: .5em;
+}
+.personalP{
+    width: 80%;
+    margin: 0 auto; 
+}
+.profileP, .profileNameH1{
+    text-align: center;
+}
+.profileP{
+    padding: .5em 1em;
+     
+}
+.parentalContainer.profileNameH1{
+    font-size: 2em;
+}
+.profileP span{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.parentalAdvisorySecondaryLetters{
+    line-height: .65em;
+}
+.parentalAdvisoryPrimaryLetters{
+    line-height: .875em;
+}
+.parentalAdvisoryTertiaryLetters{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    padding: .25em;
+}
+.parentalContentContainer.contentDescriptions{
+    border: none;
+}
+.contentDescriptions h4{
+    text-align: left;
+    font-weight: bold;
+}
+.contentDescriptions h4 span{
+    display: inline-block;
+    width: 1em;
+    border: 3px solid #000;
+    background-color: #fff;
+    padding: .27em;
+    text-align: center;
+}
+.parentalContentContainer h3 a{
+    padding: 0 .1em;
+    font-size: 1.25em;
+}
+.contentDescriptions a{
+    display: block;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+    padding: 0;
+}
+.contentDescriptions a span{
+    font-weight: bold;
+    font-size: 1.25em;
+    margin: 0 .3em 0 0;
+}
+.parentalContentParentContainer{
+    display: table;
+    padding: 8% 1em 10% 1em;
+    margin: 0 auto; 
+}
+.parentalContentContainer{
+    border: 3px solid #000;
+    display: inline-block;
+    padding: 0 1em;
+}
+.parentalAdvisorySecondaryLetters{
+    text-align: center;
+    transform : scale(1,.5);
+    -webkit-transform:scale(1,.5); /* Safari and Chrome */
+    -moz-transform:scale(1,.5); /* Firefox */
+    -ms-transform:scale(1,.5); /* IE 9+ */
+    -o-transform:scale(1,.5); /* Opera */
+}
+nav h4 a, .menuButtonParentDiv, .parentalContentContainer h3 a, .esrbParentContainer h3 a, .esrbParentContainer h4 a, .headerNavLinks, footer i, input[type='submit'], input[type='reset'], header h1 a{
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+.fixedHeader nav{
+    color: #fff;
+    float: right;
+}
+.headerParagraphText{
+    color: #fff;
+    background-color: #3299bb;
+    padding: 0 1.85em;
+}
+.mainNavnavLinksParentDiv{
+    display: inline-block;
+    float: right;
+    margin: 1em 1em 0 0;
+    width: auto;
+}
+.aboutLi{
+    display: inline-block;
+    padding: 0 0 .15em 0;
+    width: auto;
+}
+.commercialWorkSection {
+    background-color: #000;
+    overflow: hidden;
+}
+.txGov2014, .danVukcevichPortfolio{
+    background-color: #fff;
+}
+.commercialWorkParentDiv img {
+    display: block;
+    float: left;
+    padding: 0 1em;
+    width: 35%;
+}
+
+::-webkit-input-placeholder{ font-size:100%; opacity: 1;}
+:-moz-placeholder {font-size: 100%; opacity: 1;}
+::-moz-placeholder {font-size: 100%; opacity: 1;}
+:-ms-input-placeholder {font-size: 100%;opacity: 1;}
+
+.formContentContainer {
+    display: table;
+    margin: 0 auto;
+    width: 80%;
+    padding: 1em 0 2em; 
+}
+.contactFormTable {
+    width: 100%;
+}
+.contactFormTable td{
+    border: 2px solid #fff;
+}
+
+footer {
+    background-color: #333;
+    margin-top: 5%;
+    padding: 10% 5%;
+}
+footer .profileP span{
+    color: #fff;
+    font-family: "Oswald",sans-serif;
+    font-size: 1.25em;
+}
+footer h1{
+    font-family: "Oswald",sans-serif;
+    font-weight: 600;
+    font-size: 2.5em;
+    text-align: center;
+    color: #ff1744;
+}
+footer i{
+    color: #ff1744;
+}
+address{
+    color: #ff1744;
+    font-style: normal;
+    margin: 1em 0;
+}
+.formInputs {
+    width: 90%;
+    margin: 0 auto;
+    padding: .5em .25em;
+    border: none;
+    font-size: 1em;
+    font-weight: lighter;
+    color: #fff;
+    font-family: "Roboto Condensed", sans-serif; 
+    background: transparent;
+}
+
+.formInputs textarea{
+    margin: 0 auto;
+    font-family: "Roboto Condensed", sans-serif;
+    width: 90%;
+    height: 4em;
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+:-moz-placeholder{
+    color: #fff;
+}
+::-moz-placeholder{
+    color: #ccc;
+}
+
+:-ms-input-placeholder{
+    color: #fff;
+}
+
+input[type='submit']{
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 2em;
+    padding: 0.5em 1.5em;
+    width: auto;
+    float: right;
+    font-weight: 600;
+    background-color: #ff1744;
+    color: #333;
+}
+input[type='reset']{
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 2em;
+    margin-right: 1em;
+    padding: .25em .5em;
+    width: auto;
+    float: right;
+    background: none;
+    color: rgba(255, 255, 255, 0.4);
+}
+label{
+    display: block;
+    color: transparent;
+    height: 0;
+}
+.contactTab{
+    display: inline-block;
+    float: right;
+    padding: 0.25em 0.75em;
+    background-color: #000;
+}
+.contactIcon{
+    display: block;
+    text-align: center;
+    color: white;
+}
+.formMessagesSpan{
+    display: block;
+    margin: 0 0.75em .5em .75em;
+        text-align: center; 
+}
+address, footer p {
+    font-family: "Roboto Condensed",sans-serif;
+    font-weight: 100;
+}
+footer p{
+    color: #fff;
+}
+footer a{
+    display: inline-block;
+    margin-right: 1em;
+}
+address a{
+    font-family: "Oswald",sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #ff1744;
+}
+/*------------------------- Hover styles ----------------------------*/
+nav h4 a:hover, .parentalContentContainer h3 a:hover, header h1 a:hover{
+    color: #ff1744;   
+}
+.headerNavLinks:hover{
+    color: #000;
+}
+.esrbParentContainer h3 a:hover, .esrbParentContainer h4 a:hover, footer i:hover{
+    color: #2856b6;
+}
+input[type='submit']:hover{
+    background-color: #2856b6;
+}
+ input[type='reset']:hover{
+    color: #2856b6;
+    opacity: 1;
+}
+.menuButtonParentDiv:hover{
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+.menuButtonAddHover{
+    background-color: #000;
+}
+.menuBarsAddHover{
+    background-color: #fff;
+}
+
+/*------------------------- End hover styles ------------------------*/
+
+
+/*------------------------- jQuery styles ----------------------------*/
+
+/*------------------------- End jQuery styles ------------------------*/
+
+
+/*------------------------- Media Query styles --------------------*/
+@media screen and (max-width: 1025px){
+    .profilePage table{
+        width: 90%;
+    }
+    .personalP{
+        width: 90%;
+    }
+    .commercialWorkParentDiv img {
+        width: 95%;
+        float: none;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .portfolioDescriptionContainer {
+        float: none;
+        width: auto;
+    }
+    .enlargeImageLink{
+        display: none;
+    }
+    .esrbParentContainer p{ 
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 769px){
+    .profilePage table{
+        width: 100%;
+    }
+    .personalP{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 560px){
+    .fixedHeader span{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 507px){
+    .parentalContentContainer{
+        display: block;
+    }
+    .parentalContentParentContainer{
+        display: block;
+        padding: 2% 1em; 
+    }
+    .esrbParentContainer {
+        padding: 20% 0 10%;
+    }
+    .esrbParentContainer h2 {
+        font-size: 1.25em;
+    }
+    .esrbParentContainer h3 {
+        font-size: 2em;
+    }
+    .esrbParentContainer h4 {
+        margin: 0.5em;
+    }
+    .parentalContentContainer h3 a{
+        color: #ff1744;
+    }
+    .parentalContentContainer h3 a:hover{
+        color: #2856b6;
+    }
+    .contentDescriptions{
+        display: none;
+    }
+    .profilePage h3{
+        font-size: 1em;
+    }
+    .profilePage h1{
+        font-size: 2em;
+    }
+   .profilePage table td{
+        padding: .5em .35em;
+    }
+}
+@media screen and (max-width: 430px){
+    .headerNavLinks{
+        font-size: 1em;
+        letter-spacing: 1px;
+        padding: 1.15em .75em;
+    }
+}
+
+@media screen and (max-width: 405px){
+    .dash{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px){
+    header h1{
+        padding: .25em 0 .25em .5em; 
+    }
+    .headerNavLinks{
+        padding: 1.15em .5em; 
+    }
+}
+@media screen and (max-width: 330px){
+    header h1{
+        font-size: 1.5em;
+        padding: .25em 0 .25em .5em; 
+    }
+    .headerNavLinks{
+        padding: 1em .5em; 
+    }
+}
+@media screen and (max-width: 320px){
+    header h1{
+        font-size: 1.25em;
+        padding: .25em 0 .25em .5em; 
+    }
+    .headerNavLinks{
+        padding: .75em .5em; 
+    }
+}
+/*------------------------- End media query styles ----------------*/
+
