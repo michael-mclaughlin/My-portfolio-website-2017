@@ -132,7 +132,7 @@ header h1 a{
 }
 .profilePage h2{
     font-family: 'Oswald', sans-serif;
-    font-size: 4em;
+    font-size: 3.5em;
     line-height: 1em;
 }
 .esrb h2{
@@ -186,6 +186,9 @@ header h1 a{
 .esrbParentContainer h3{
     font-size: 2.5em;
     margin: 0.25em 0;
+    color: #ff1744;
+    letter-spacing: 1px;
+    font-weight: 600;
 }
 .esrbParentContainer h3 a{
     color: #ff1744;
@@ -195,7 +198,7 @@ header h1 a{
 .esrbParentContainer h4{
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 100;
-    font-size: 1.5em;
+    font-size: 1.35em;
     margin: .25em 0;
 }
 .esrbParentContainer h4 a{
@@ -358,7 +361,7 @@ nav h4 a, .menuButtonParentDiv, .parentalContentContainer h3 a, .esrbParentConta
 footer {
     background-color: #333;
     margin-top: 5%;
-    padding: 10% 5%;
+    padding: 11.5% 5% 9% 5%;
 }
 footer .profileP span{
     color: #fff;
